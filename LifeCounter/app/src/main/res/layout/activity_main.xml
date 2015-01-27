@@ -1,0 +1,200 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/tableLayout"
+            android:gravity="bottom|top">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:paddingTop="12dp"
+                android:paddingBottom="10dp">
+
+
+                <TextView
+                    android:id="@+id/appname"
+                    android:text="Magic: Life Counter"
+                    android:textSize="25dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="10dp"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/player1"
+                    android:text="Player 1: 20"
+                    android:paddingRight="10dp"
+                    android:paddingLeft="10dp"
+                    android:layout_weight="4" />
+
+                <Button
+                    android:id="@+id/p1plus1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="+"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:id="@+id/p1minus1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="-"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:id="@+id/p1plus5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="+5"
+                    android:layout_weight="1" />
+                <Button
+                    android:id="@+id/p1minus5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="-5"
+                    android:layout_weight="1" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="10dp"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/player2"
+                    android:text="Player 2: 20"
+                    android:paddingLeft="10dp"
+                    android:layout_weight="4" />
+
+                <Button
+                    android:id="@+id/p2plus1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="+"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:id="@+id/p2minus1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="-"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:id="@+id/p2plus5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="+5"
+                    android:layout_weight="1" />
+                <Button
+                    android:id="@+id/p2minus5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="-5"
+                    android:layout_weight="1" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="10dp"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/player3"
+                    android:text="Player 3: 20"
+                    android:paddingLeft="10dp"
+                    android:layout_weight="4" />
+
+                <Button
+                    android:id="@+id/p3plus1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="+"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:id="@+id/p3minus1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="-"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:id="@+id/p3plus5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="+5"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:id="@+id/p3minus5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="-5"
+                    android:layout_weight="1" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="10dp"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/player4"
+                    android:text="Player 4: 20"
+                    android:paddingLeft="10dp"
+                    android:layout_weight="4" />
+
+                <Button
+                    android:id="@+id/p4plus1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="+"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:id="@+id/p4minus1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="-"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:id="@+id/p4plus5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="+5"
+                    android:layout_weight="1" />
+                <Button
+                    android:id="@+id/p4minus5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="-5"
+                    android:layout_weight="1" />
+            </TableRow>
+
+            <TextView
+                android:id="@+id/losers"
+                android:text=""
+                android:paddingLeft="10dp"
+                android:layout_height="match_parent"
+                android:gravity="bottom|left"
+                android:paddingBottom="20dp" />
+        </TableLayout>
+    </ScrollView>
+</RelativeLayout>
